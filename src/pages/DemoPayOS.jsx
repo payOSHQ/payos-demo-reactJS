@@ -38,7 +38,7 @@ export default function DemoPayOS() {
       const body = JSON.stringify({
         description: descriptionRef.current.value,
         productName: productNameRef.current.value,
-        price: Number(priceRef.current.value),
+        amount: Number(priceRef.current.value),
         returnUrl: RETURN_URL,
         cancelUrl: CANCEL_URL,
       });
